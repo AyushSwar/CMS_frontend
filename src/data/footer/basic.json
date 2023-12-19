@@ -1,0 +1,207 @@
+{
+    "type": "div",
+    "props": {
+        "id": "footer-section",
+        "children": {
+            "type": "div",
+            "props": {
+                "id": "footer-body",
+                "style": {
+                    "alignItems": "center",
+                    "backgroundColor": "#f69e9e",
+                    "borderWidth": "1px",
+                    "display": "flex",
+                    "height": "4rem",
+                    "justifyContent": "space-between",
+                    "paddingLeft": "4rem",
+                    "paddingRight": "4rem",
+                    "position": "relative"
+                },
+                "children": [
+                    {
+                        "type": "div",
+                        "props": {
+                            "style": {
+                                "alignItems": "center",
+                                "display": "flex",
+                                "gap": "2.5rem",
+                                "justifyContent": "center"
+                            },
+                            "children": [
+                                {
+                                    "type": "img",
+                                    "props": {
+                                        "alt": "",
+                                        "src": "/src/assets/images/logo.webp",
+                                        "style": {
+                                            "height": "2.5rem"
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "div",
+                                    "props": {
+                                        "children": [
+                                            {
+                                                "type": "span",
+                                                "props": {
+                                                    "id": "footer-text",
+                                                    "style": {
+                                                        "cursor": "text",
+                                                        "color": "#000000"
+                                                    },
+                                                    "children": [
+                                                        "© Hamro Patro 2023, All Rights Reserved |",
+                                                        " "
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "type": "span",
+                                                "props": {
+                                                    "id": "privacy",
+                                                    "style": {
+                                                        "cursor": "text"
+                                                    },
+                                                    "children": "Privacy"
+                                                }
+                                            },
+                                            " ",
+                                            "|",
+                                            " ",
+                                            {
+                                                "type": "span",
+                                                "props": {
+                                                    "id": "terms-of-service",
+                                                    "style": {
+                                                        "cursor": "text"
+                                                    },
+                                                    "children": "Terms of Service"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "type": "div",
+                        "props": {
+                            "style": {
+                                "display": "flex",
+                                "gap": "1.75rem"
+                            },
+                            "children": [
+                                {
+                                    "type": "a",
+                                    "props": {
+                                        "id": "facebook",
+                                        "href": "https://www.facebook.com/HamroPatro/",
+                                        "style": {
+                                            ":hover": {
+                                                "--transform-scale-x": "1.05",
+                                                "--transform-scale-y": "1.05"
+                                            },
+                                            "borderRadius": "9999px",
+                                            "color": "#1E40AF",
+                                            "cursor": "pointer",
+                                            "transitionDuration": [
+                                                "300ms",
+                                                "200ms"
+                                            ],
+                                            "transitionProperty": "background-color, border-color, color, fill, stroke, opacity, box-shadow, transform",
+                                            "transitionTimingFunction": "cubic-bezier(0.4, 0, 0.2, 1)"
+                                        },
+                                        "children": {
+                                            "type": "FaFacebook",
+                                            "props": {
+                                                "size": 25
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "p",
+                                    "props": {
+                                        "style": {
+                                            ":hover": {
+                                                "--transform-scale-x": "1.05",
+                                                "--transform-scale-y": "1.05"
+                                            },
+                                            "borderRadius": "9999px",
+                                            "cursor": "pointer",
+                                            "transitionDuration": [
+                                                "300ms",
+                                                "200ms"
+                                            ],
+                                            "transitionProperty": "background-color, border-color, color, fill, stroke, opacity, box-shadow, transform",
+                                            "transitionTimingFunction": "cubic-bezier(0.4, 0, 0.2, 1)"
+                                        },
+                                        "children": {
+                                            "type": "RiInstagramFill",
+                                            "props": {
+                                                "size": 27
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "p",
+                                    "props": {
+                                        "style": {
+                                            ":hover": {
+                                                "--transform-scale-x": "1.05",
+                                                "--transform-scale-y": "1.05"
+                                            },
+                                            "borderRadius": "9999px",
+                                            "cursor": "pointer",
+                                            "transitionDuration": [
+                                                "300ms",
+                                                "200ms"
+                                            ],
+                                            "transitionProperty": "background-color, border-color, color, fill, stroke, opacity, box-shadow, transform",
+                                            "transitionTimingFunction": "cubic-bezier(0.4, 0, 0.2, 1)"
+                                        },
+                                        "children": {
+                                            "type": "FaXTwitter",
+                                            "props": {
+                                                "size": 25
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "type": "p",
+                                    "props": {
+                                        "style": {
+                                            ":hover": {
+                                                "--transform-scale-x": "1.05",
+                                                "--transform-scale-y": "1.05"
+                                            },
+                                            "borderRadius": "9999px",
+                                            "color": "#E50914",
+                                            "cursor": "pointer",
+                                            "transitionDuration": [
+                                                "300ms",
+                                                "200ms"
+                                            ],
+                                            "transitionProperty": "background-color, border-color, color, fill, stroke, opacity, box-shadow, transform",
+                                            "transitionTimingFunction": "cubic-bezier(0.4, 0, 0.2, 1)"
+                                        },
+                                        "children": {
+                                            "type": "IoLogoYoutube",
+                                            "props": {
+                                                "size": 26
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
